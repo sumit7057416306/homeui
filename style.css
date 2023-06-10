@@ -1,0 +1,36 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  #grid {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    grid-template-rows: repeat(5, 60px);
+    gap: 5px;
+  }
+  
+  .grid-item {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  #options {
+    margin-top: 20px;
+  }
+  
+  #options label, #options select, #options input, #options button {
+    margin-right: 10px;
+  }
+  
+  #recommend {
+    margin-top: 20px;
+  }
+  
